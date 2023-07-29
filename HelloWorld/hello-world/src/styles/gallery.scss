@@ -1,0 +1,37 @@
+.profile {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: grey;
+    > {
+        margin-top: 0;
+    }
+    ul {
+        padding: 0 1rem;
+    }
+    h2 {
+        font-size: 3rem;
+        margin: 1rem 0;
+    }
+}
+
+.profile__pic {
+    min-width: 30%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-right: 3rem;
+    
+    img {
+        min-width: 60%;
+        height: auto;
+        border-radius: 50%;
+        
+    }
+}
+
+.profile__info {
+    color: #fff;
+    text-align: left;
+}
